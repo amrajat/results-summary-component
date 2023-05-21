@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <meta name="keywords" content="fronend challange" />
+
+    <title>Frontend Mentor | Results summary component</title>
+  </head>
+  <body>
+    <h1 class="sr-only" aria-hidden="true">
+      Result summary component from Frontend Mentor
+    </h1>
+
+    <main class="card">
+      <article class="result">
+        <h1 class="result__title">Your Result</h1>
+        <h2 class="result__score">
+          76 <span class="result__of-100">of 100</span>
+        </h2>
+        <h2 class="result__great">Great</h2>
+        <p class="result__score-compare-text">
+          You scored higher than 65% of the people who have taken these tests.
+        </p>
+      </article>
+      <article class="summary">
+        <h3 class="summary__title">Summary</h3>
+        <div class="summary__details summary__details--reaction">
+          <img src="./assets/images/icon-reaction.svg" alt="reaction" />
+          <h4 class="summary__details-type">Reaction</h4>
+          <h4 class="summary__details-scored">80 <span>/ 100</span></h4>
+        </div>
+        <div class="summary__details summary__details--memory">
+          <img src="./assets/images/icon-memory.svg" alt="brain" />
+          <h4 class="summary__details-type">Memory</h4>
+          <h4 class="summary__details-scored">92 <span>/ 100</span></h4>
+        </div>
+        <div class="summary__details summary__details--verbal">
+          <img src="./assets/images/icon-verbal.svg" alt="verbal" />
+          <h4 class="summary__details-type">Verbal</h4>
+          <h4 class="summary__details-scored">61 <span>/ 100</span></h4>
+        </div>
+        <div class="summary__details summary__details--visual">
+          <img src="./assets/images/icon-visual.svg" alt="eye" />
+          <h4 class="summary__details-type">Visual</h4>
+          <h4 class="summary__details-scored">72 <span>/ 100</span></h4>
+        </div>
+        <button>Continue</button>
+      </article>
+    </main>
+  </body>
+</html>
